@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    
+    <head>
+        
+        <title>Mandarin Visa</title>
+        
+        <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,700' rel='stylesheet' type='text/css'>
+        <link href='https://fonts.googleapis.com/css?family=Roboto:400,100,300' rel='stylesheet' type='text/css'>
+        <link href='https://fonts.googleapis.com/css?family=Lato:400,100,300,700' rel='stylesheet' type='text/css'>
+        <link href="https://fonts.googleapis.com/css?family=Raleway:100i,200,200i,300,300i,400,400i" rel="stylesheet">
+        
+        <!-- <link href="css/normalize.css" rel="stylesheet" type="text/css"/> -->
+        
+        <link href="css/style.css" rel="stylesheet" type="text/css" media="screen"/>
+        <link href="css/clearfix.css" rel="stylesheet" type="text/css" media="screen"/>
+        
+        <meta charset="utf-8"/>
+    
+    </head>
+    
+    <body>
+        
+    <div class="container">
+        
+<!--
+==========  HEADER  ==========
+-->
+        
+        <header>
+            
+            <nav>
+                <a id="home" href="#homeSection">HOME</a>
+                <a id="about" href="#visaSection">CHINESE VISA TYPE</a>
+                <a id="prices" href="#pricesSection">PRICES</a>
+                <a id="contact" href="#contactSection">CONTACT</a>
+            </nav>
+                           
+        </header>
+    
+<!--
+==========  SECTION ONE  ==========
+-->
+        
+        <div id="sectOne">
+            
+            <h1>5 Reasons to Choose <br/><span id="mandarinVisa">MANDARIN VISA</span>
+            </h1>
+                
+            <div id="slideshowContainer">
+                        
+                <div class="mySlides fade">
+                    <h2>We offer urgent service (in 48 working hours) - the quickest service available in the UK</h2>
+                </div>
+                <div class="mySlides fade">
+                    <h2>No appointments needed which saves you valuable time</h2>
+                </div>
+                <div class="mySlides fade">
+                    <h2>Ranked No.1 in service quality by the official Application Service Centre</h2>
+                </div>
+                <div class="mySlides fade">
+                    <h2>Simple way to get a visa - We only ask for what we need and we keep trouble away from you</h2>
+                </div>
+                <div class="mySlides fade">
+                    <h2>Prime Location - The convenience of sitting in the City of London - Just behind the Bank of England</h2>
+                </div>
+                
+                <div class="progressBar"></div>
+                            
+            </div><!-- end slideshowContainer -->
+            
+        </div><!-- end sectOne -->
+        
+    </div><!-- end container -->
+        
+        <script>
+            var slideIndex = 0;
+            showSlides();
+            function showSlides() {
+                var i;
+                var slides = document.getElementsByClassName("mySlides");
+                for (i = 0; i < slides.length; i++) {
+                    slides[i].style.display = "none";
+                }
+                slideIndex++;
+                if (slideIndex > slides.length) {slideIndex = 1}
+            
+                slides[slideIndex-1].style.display = "block";
+                setTimeout(showSlides, 8600); // Change image every 5 seconds
+            }
+        </script>
+                            
+    </body>
+    
+</html>    
+    
